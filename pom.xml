@@ -11,5 +11,701 @@
   		<artifactId>mysql-connector-java</artifactId>
   		<version>8.0.28</version>
   	</dependency>
+  	  
+    <dependency>
+      <groupId>com.relationaljunction</groupId>
+      <artifactId>rj-rest-jdbc</artifactId>
+      <version>6.2.38</version>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.2.16</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>com.microsoft.sqlserver</groupId>
+        <artifactId>mssql-jdbc</artifactId>
+        <version>9.4.1.jre8</version>
+    </dependency>
+    <dependency>
+        <groupId>com.microsoft.sqlserver</groupId>
+        <artifactId>mssql-jdbc_auth</artifactId>
+        <version>9.4.1.x64</version>
+        <type>dll</type>
+    </dependency>
+    
+    <!-- Used for Sybase JCE -->
+    <dependency>
+        <groupId>org.bouncycastle</groupId>
+        <artifactId>bcprov-ext-jdk15on</artifactId>
+        <version>1.68</version>
+    </dependency>
+
+    <!-- Fileio junction -->
+<!--    <dependency> -->
+<!--      <groupId>com.relationaljunction</groupId> -->
+<!--      <artifactId>xmldriver</artifactId> -->
+<!--      <version>20200918</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>com.relationaljunction</groupId> -->
+<!--      <artifactId>csvdriver</artifactId> -->
+<!--      <version>20200918</version> -->
+<!--    </dependency> -->
+    <!-- Sesame Drivers -->
+<!--    <dependency> -->
+<!--        <groupId>com.relatioaljunction</groupId> -->
+<!--        <artifactId>dbfdriver</artifactId> -->
+<!--        <version>20201918</version> -->
+<!--    </dependency> -->
+    <!-- https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc -->
+    <!-- SAP Hana Driver -->
+    <dependency>
+        <groupId>com.sap.cloud.db.jdbc</groupId>
+        <artifactId>ngdbc</artifactId>
+        <version>2.5.49</version>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.23</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sybase</groupId>
+      <artifactId>jconn</artifactId>
+      <version>4</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/net.sf.jt400/jt400 -->
+    <!-- Jconnect open source toolbox -->
+    <dependency>
+        <groupId>net.sf.jt400</groupId>
+        <artifactId>jt400</artifactId>
+        <version>10.6</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.jtds</groupId>
+      <artifactId>jtds</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+    <dependency>
+        <groupId>com.microsoft.sqlserver</groupId>
+        <artifactId>mssql-jdbc</artifactId>
+        <version>9.4.1.jre8</version>
+    </dependency>
+        
+    
+    <!-- BEGIN Teradata drivers are not redistributable.  Test scope only! -->
+    <!-- https://downloads.teradata.com/download/license/generic-download-license -->
+    <dependency>
+        <groupId>com.teradata</groupId>
+        <artifactId>tdgssconfig</artifactId>
+        <version>16.10.00.07</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>com.teradata</groupId>
+        <artifactId>terajdbc4</artifactId>
+        <version>16.10.00.07</version>
+        <scope>test</scope>
+    </dependency>
+    <!-- END Teradata drivers -->
+    
+    
+    <!-- BEGIN Required for oracle ojdbc8 -->
+    <dependency>
+        <groupId>com.oracle</groupId>
+        <artifactId>ojdbc8</artifactId>
+        <version>18.3</version>
+    </dependency>
+    <dependency>
+        <groupId>com.oracle</groupId>
+        <artifactId>osdt_cert</artifactId>
+        <version>18.3</version>
+    </dependency>
+    <dependency>
+        <groupId>com.oracle</groupId>
+        <artifactId>ucp</artifactId>
+        <version>18.3</version>
+    </dependency>
+    <dependency>
+        <groupId>com.oracle</groupId>
+        <artifactId>osdt_core</artifactId>
+        <version>18.3</version>
+    </dependency>
+    <dependency>
+        <groupId>com.oracle</groupId>
+        <artifactId>oraclepki</artifactId>
+        <version>18.3</version>
+    </dependency>
+    <!-- END Required for oracle ojdbc8 -->
+    <dependency>
+        <groupId>com.vertica</groupId>
+        <artifactId>vertica-jdbc</artifactId>
+        <version>9.2.1</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc.amazondynamodb</groupId>
+        <artifactId>cdata.jdbc.amazondynamodb</artifactId>
+        <version>19.0.7285</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.redshift</artifactId>
+        <version>21.0.7642</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>salesforce</artifactId>
+        <version>19.0.7200</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.sfmarketingcloud</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.access</artifactId>
+        <version>20.0.7662</version>
+    </dependency>
+    <dependency>
+      <groupId>cdata.jdbc.activedirectory</groupId>
+      <artifactId>cdata.jdbc.activedirectory</artifactId>
+      <version>16.0.6254</version>
+    </dependency>
+    <dependency>
+      <groupId>cdata.jdbc.apachehbase</groupId>
+      <artifactId>cdata.jdbc.apachehbase</artifactId>
+      <version>16.0.6254</version>
+    </dependency>
+    <dependency>
+      <groupId>cdata.jdbc.authorizenet</groupId>
+      <artifactId>cdata.jdbc.authorizenet</artifactId>
+      <version>16.0.6254</version>
+    </dependency>
+    <dependency>
+      <groupId>cdata.jdbc.azure</groupId>
+      <artifactId>cdata.jdbc.azure</artifactId>
+      <version>15.0.6121</version>
+    </dependency>
+    <dependency>
+      <groupId>cdata.jdbc.azuretables</groupId>
+      <artifactId>cdata.jdbc.azuretables</artifactId>
+      <version>18.0.6818</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc.basecamp</groupId>
+        <artifactId>cdata.jdbc.basecamp</artifactId>
+        <version>19.0.7285</version>
+    </dependency>
+    <dependency>
+      <groupId>cdata.jdbc.bing</groupId>
+      <artifactId>cdata.jdbc.bing</artifactId>
+      <version>16.0.6254</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.bingads</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+      <groupId>cdata.jdbc.box</groupId>
+      <artifactId>cdata.jdbc.box</artifactId>
+      <version>16.0.6254</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.cassandra</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.googlesheets</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc.couchbase</groupId>
+        <artifactId>cdata.jdbc.couchbase</artifactId>
+        <version>19.0.7285</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.csv</artifactId>
+        <version>20.0.7662</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.dynamicscrm</artifactId>
+        <version>21.0.7867</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc.d365businesscentral</groupId>
+        <artifactId>cdata.jdbc.d365businesscentral</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+      <groupId>cdata.jdbc.dynamicsnav</groupId>
+      <artifactId>cdata.jdbc.dynamicsnav</artifactId>
+      <version>16.0.6254</version>
+    </dependency>   
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.redis</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.ebay</groupId> -->
+<!--      <artifactId>cdata.jdbc.ebay</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.elasticsearch</groupId> -->
+<!--      <artifactId>cdata.jdbc.elasticsearch</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc</groupId> -->
+<!--      <artifactId>email</artifactId> -->
+<!--      <version>15.0.5652</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.etrade</groupId> -->
+<!--      <artifactId>cdata.jdbc.etrade</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.exactonline</groupId> -->
+<!--      <artifactId>cdata.jdbc.exactonline</artifactId> -->
+<!--      <version>16.0.6271</version> -->
+<!--    </dependency> -->
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>cdata.jdbc.excel</artifactId>
+          <version>20.0.7593</version>
+      </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.excelservices</groupId> -->
+<!--      <artifactId>cdata.jdbc.excelservices</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.exchange</groupId> -->
+<!--      <artifactId>cdata.jdbc.exchange</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.facebook</groupId> -->
+<!--      <artifactId>cdata.jdbc.facebook</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.freshbooks</groupId> -->
+<!--      <artifactId>cdata.jdbc.freshbooks</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>cdata.jdbc.gmail</artifactId>
+          <version>20.0.7503</version>
+      </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.googleadwords</groupId> -->
+<!--      <artifactId>cdata.jdbc.googleadwords</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.googleapps</groupId> -->
+<!--      <artifactId>cdata.jdbc.googleapps</artifactId> -->
+<!--      <version>15.0.6121</version> -->
+<!--    </dependency> -->
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>googlebigquery</artifactId>
+          <version>20.0.7558</version>
+      </dependency>
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>cdata.jdbc.googleanalytics</artifactId>
+          <version>20.0.7587</version>
+      </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.googlesearch</groupId> -->
+<!--      <artifactId>cdata.jdbc.googlesearch</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.highrise</groupId> -->
+<!--      <artifactId>cdata.jdbc.highrise</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.hpcc</groupId> -->
+<!--      <artifactId>cdata.jdbc.hpcc</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.hubspot</groupId> -->
+<!--      <artifactId>cdata.jdbc.hubspot</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.intacct</groupId> -->
+<!--      <artifactId>cdata.jdbc.intacct</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.jira</groupId> -->
+<!--      <artifactId>cdata.jdbc.jira</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>cdata.jdbc.json</artifactId>
+          <version>20.0.7662</version>
+      </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.ldap</groupId> -->
+<!--      <artifactId>cdata.jdbc.ldap</artifactId> -->
+<!--      <version>16.0.6257</version> -->
+<!--    </dependency> -->
+<!--      Begin required for magento  -->
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>cdata.jdbc.magento</artifactId>
+          <version>19.0.7430</version>
+      </dependency>
+<!--      End required for magento  -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.mailchimp</groupId> -->
+<!--      <artifactId>cdata.jdbc.mailchimp</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>cdata.jdbc.marketo</artifactId>
+          <version>21.0.7930</version>
+      </dependency>
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>cdata.jdbc.mongodb</artifactId>
+          <version>19.0.7354</version>
+      </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.msproject</groupId> -->
+<!--      <artifactId>cdata.jdbc.msproject</artifactId> -->
+<!--      <version>16.0.6271</version> -->
+<!--    </dependency> -->
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>cdata.jdbc.netsuite</artifactId>
+          <version>21.0.7941</version>
+      </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.odata</groupId> -->
+<!--      <artifactId>cdata.jdbc.odata</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.office365</groupId> -->
+<!--      <artifactId>cdata.jdbc.office365</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.ofx</groupId> -->
+<!--      <artifactId>cdata.jdbc.ofx</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.openexchangerates</groupId> -->
+<!--      <artifactId>cdata.jdbc.openexchangerates</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.oraclesalescloud</groupId> -->
+<!--      <artifactId>cdata.jdbc.oraclesalescloud</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.paypal</groupId> -->
+<!--      <artifactId>cdata.jdbc.paypal</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.quandl</groupId> -->
+<!--      <artifactId>cdata.jdbc.quandl</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>quickbooks</artifactId>
+        <version>19.0.7156</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>quickbooksonline</artifactId>
+        <version>19.0.7156</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.salesforcepardot</artifactId>
+        <version>21.0.8087</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.shopify</artifactId>
+        <version>20.0.7503</version>
+    </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.quickbookspos</groupId> -->
+<!--      <artifactId>cdata.jdbc.quickbookspos</artifactId> -->
+<!--      <version>16.0.6271</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.reckon</groupId> -->
+<!--      <artifactId>cdata.jdbc.reckon</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+    <!-- Begin required for rest driver -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.rest</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc.rest</groupId>
+        <artifactId>rssbus</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <!-- End required for rest driver -->
+    <!-- Begin required for rss driver -->
+    <dependency>
+        <groupId>cdata.jdbc.rss</groupId>
+        <artifactId>cdata.jdbc.rss</artifactId>
+        <version>19.0.7374</version>
+    </dependency>
+    <dependency>
+        <groupId>org.xerial</groupId>
+        <artifactId>sqlite-jdbc</artifactId>
+        <version>3.7.2</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc.rss</groupId>
+        <artifactId>derby</artifactId>
+        <version>20190626</version>
+    </dependency>
+    <!-- End required for rss driver -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.odoo</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.sage50uk</groupId> -->
+<!--      <artifactId>cdata.jdbc.sage50uk</artifactId> -->
+<!--      <version>15.0.6121</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.saphybrisc4c</groupId> -->
+<!--      <artifactId>cdata.jdbc.saphybrisc4c</artifactId> -->
+<!--      <version>18.0.6782</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.sendgrid</groupId> -->
+<!--      <artifactId>cdata.jdbc.sendgrid</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+      <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.servicenow</artifactId>
+        <version>20.0.7662</version>
+      </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.sfmarketingcloud</groupId> -->
+<!--      <artifactId>cdata.jdbc.sfmarketingcloud</artifactId> -->
+<!--      <version>18.0.6817</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.sharepoint</groupId> -->
+<!--      <artifactId>cdata.jdbc.sharepoint</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.simpledb</groupId> -->
+<!--      <artifactId>cdata.jdbc.simpledb</artifactId> -->
+<!--      <version>15.0.5998</version> -->
+<!--    </dependency> -->
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>cdata.jdbc.smartsheet</artifactId>
+          <version>19.0.7354</version>
+      </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.sparksql</groupId> -->
+<!--      <artifactId>cdata.jdbc.sparksql</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+    <dependency>
+        <groupId>cdata.jdbc.splunk</groupId>
+        <artifactId>cdata.jdbc.splunk</artifactId>
+        <version>19.0.7216</version>
+    </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.sql</groupId> -->
+<!--      <artifactId>cdata.jdbc.sql</artifactId> -->
+<!--      <version>18.0.6864</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.square</groupId> -->
+<!--      <artifactId>cdata.jdbc.square</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.stripe</groupId> -->
+<!--      <artifactId>cdata.jdbc.stripe</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+      <dependency>
+          <groupId>cdata.jdbc</groupId>
+          <artifactId>cdata.jdbc.sugarcrm</artifactId>
+          <version>20.0.7503</version>
+      </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.twilio</groupId> -->
+<!--      <artifactId>cdata.jdbc.twilio</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.twitter</groupId> -->
+<!--      <artifactId>cdata.jdbc.twitter</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.xbase</groupId> -->
+<!--      <artifactId>cdata.jdbc.xbase</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.xero</groupId> -->
+<!--      <artifactId>cdata.jdbc.xero</artifactId> -->
+<!--      <version>16.0.6255</version> -->
+<!--    </dependency> -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.xml</artifactId>
+        <version>20.0.7662</version>
+    </dependency>
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.youtube</groupId> -->
+<!--      <artifactId>cdata.jdbc.youtube</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.youtubeanalytics</groupId> -->
+<!--      <artifactId>cdata.jdbc.youtubeanalytics</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+<!--    <dependency> -->
+<!--      <groupId>cdata.jdbc.zohocrm</groupId> -->
+<!--      <artifactId>cdata.jdbc.zohocrm</artifactId> -->
+<!--      <version>16.0.6254</version> -->
+<!--    </dependency> -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.bullhorncrm</artifactId>
+        <version>21.0.7942</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.saphana</artifactId>
+        <version>19.0.7467</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.sapgateway</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.sapbusinessone</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc.amazonathena</groupId>
+        <artifactId>cdata.jdbc.amazonathena</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.suitecrm</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.wordpress</artifactId>
+        <version>19.0.7354.2</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.alfresco</artifactId>
+        <version>19.0.7354</version>
+    </dependency>
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.c1010</artifactId>
+        <version>20.0.7513</version>
+    </dependency>
+    <!-- Blackbaud -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.financialedgenxt</artifactId>
+        <version>20.0.7662</version>
+    </dependency>
+    <!-- Microsoft Teams -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.msteams</artifactId>
+        <version>20.0.7662</version>
+    </dependency>
+    <!-- MS Office 365 -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.office365</artifactId>
+        <version>20.0.7662</version>
+    </dependency>
+    <!-- Dynamics 365 FinOp -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.d365finop</artifactId>
+        <version>20.0.7662</version>
+    </dependency>
+    <!-- Oracle Eloqua -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.oracleeloqua</artifactId>
+        <version>20.0.7662</version>
+    </dependency>
+    <!-- SAP Concur -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.sapconcur</artifactId>
+        <version>20.0.7662</version>
+    </dependency>
+    <!-- Workday -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.workday</artifactId>
+        <version>21.0.7936</version>
+    </dependency>
+    <!-- HubSpot -->
+    <dependency>
+        <groupId>cdata.jdbc</groupId>
+        <artifactId>cdata.jdbc.hubspot</artifactId>
+        <version>21.0.7867</version>
+    </dependency>   
   </dependencies>
 </project>
